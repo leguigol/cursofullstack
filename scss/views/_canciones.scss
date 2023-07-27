@@ -1,0 +1,25 @@
+.container_canciones .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+}
+.col-md-5, .col-md-3 {
+    margin: 10px;
+}
+article .cuerpo_article_can {
+    margin-top: 20px;
+    font-size: x-large;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.album {
+    border: 3px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}

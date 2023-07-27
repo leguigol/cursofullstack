@@ -1,0 +1,281 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo_rectangulo {
+    width: 159px;
+    height: 161px;
+    background-color: #333;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 1514px) {
+        width: 100px; 
+        height: 101px; 
+        margin-top: -120px; 
+        margin-left: 50px; 
+    }
+}
+
+#contenedor_img_portada {
+    font-size: 0;
+}
+#img_portada {
+    font-size: 0;
+    margin: 0 auto;
+    min-width: 100%;
+}
+.container_titulo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: $color-fondo_titulo;
+}
+.izquierda {
+    flex: 1;
+}
+.titulo {
+    font-size: 0;
+    margin: 0 auto;
+    background-color: $color-fondo_titulo;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.titulo h2 {
+    font-family: $font-titulo;
+    text-align: center;
+    font-size: 80px;
+    color: $color-fondo_titulo;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.redes_sociales {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    margin-right: 20px;
+    flex: 1;
+}
+
+nav .barranav {
+    text-align: center;
+    font-family: $font-titulo;
+    font-size: 30px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 20px;
+}    
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.4);
+    color: $color-transicion;
+    text-decoration: none;
+}
+
+.container   {
+    height: 500px;
+    display: inline-block;
+    
+}
+.contenedor_main {
+    display: inline-block;
+    width: 100%;
+
+}
+.contenedor_main .video {
+    text-align: center;
+}
+.contenedor_main .foto {
+    text-align: center;
+}
+
+.titulo_pagina {
+    text-align: center;
+    font-family: $font-titulo;
+    font-size: 80px;
+}
+
+
+aside {
+    text-align: center;
+    font-family: $font-titulo;
+    background-color: $color-fondo_aside;
+    margin: 20px;
+    height: 90px;
+    overflow: hidden;
+
+}
+#link {
+    display: flex;
+    justify-content: center;
+}
+#link a {
+    font-family: $font-titulo;
+    font-size: 30px;
+    text-decoration: none;  
+    margin-left: 20px;
+    margin-top: 20px; 
+    transition: transform 0.3s;
+    
+}
+#link a:hover {
+    transform: scale(1.5);
+    color: $color-transicion;
+}
+#footer {
+    font-family: $font-titulo;
+    text-align: center;
+    font-size: 20px;
+
+}
+article .titulo_article {
+    font-size: xx-large;
+    text-align: left;
+}
+
+article .cuerpo_article {
+    margin-top: 20px;
+    font-size: x-large;
+    text-align: left;
+}
+
+article .firma_article {
+    margin-top: 20px;
+    font-size: x-large;
+    text-align: end;
+    font-weight: bold;
+}
+.normal {
+    text-align: center;
+    font-family: $font-titulo;
+    background-color: $color-fondo_normal;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+}
+
+.titulo_aside {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 4rem;
+    background-color: $color-fondo_aside;
+    font-size: x-large;
+    text-align: center;
+
+}
+.cuerpo_aside {
+    background-color: black;
+    height: 8.5rem;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_aside2 {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 4rem;
+    background-color: white;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+
+.cuerpo_aside2 {
+    background-color: black;
+    height: 21rem;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+
+}
+.music {
+    text-align: center;
+    font-family: $font-titulo;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+}
+.body_ppal {
+    min-width: 768px;
+}
+.galeria {
+
+    text-align: center;
+    font-family: $font-titulo;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+
+}  
+
+.container_galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+
+}
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    animation: slide 5s infinite; 
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .titulo_calendario {
+    background-color: white;
+    font-family: $font-titulo;
+    font-size: larger;
+    border-top: 1px solid black;
+    padding: 4px;
+
+  }
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}

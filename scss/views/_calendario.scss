@@ -1,0 +1,29 @@
+.fecha_calendario {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid white;
+  }
+  .fecha_calendario .fc1{
+    font-size: 40px;
+  }
+  .fecha_calendario .fc2{
+    font-size: 20px;
+    margin: 21px;
+  }
+  .fecha_calendario .fc3{
+    font-size: 40px;
+    margin-left: 3px;
+  }
+  .fecha_calendario .fc4{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 22px;
+    font-weight: bold;
+  }
+  .fecha_calendario .fc5{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 22px;
+  }
