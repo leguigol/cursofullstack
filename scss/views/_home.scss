@@ -1,19 +1,20 @@
-.body {
-    margin: 0;
-    padding: 0;
+.body_ppal {
+    background-color: $color-fondo_bodyhome;
 }
 
 #logo_rectangulo {
     width: 159px;
     height: 161px;
-    background-color: #333;
+    background-image: url('/assets/images/logoluz.jpg');
+    background-size: cover;
     position: absolute;
     margin-top: -220px;
     margin-left: 350px;
-    color: white;
+    // color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: caida 1s ease;
     @media (max-width: 1514px) {
         width: 100px; 
         height: 101px; 
@@ -21,6 +22,15 @@
         margin-left: 50px; 
     }
 }
+@keyframes caida {
+    0% {
+      transform: translateY(-300%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
 
 #contenedor_img_portada {
     font-size: 0;
@@ -262,14 +272,14 @@ article .firma_article {
     height: auto;
   }
   
-  .titulo_calendario {
+  .music {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
     background-color: white;
-    font-family: $font-titulo;
-    font-size: larger;
-    border-top: 1px solid black;
-    padding: 4px;
-
-  }
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+}
 
 @keyframes slide {
     0% {

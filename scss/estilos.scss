@@ -1,11 +1,13 @@
-@import "./utilities/_variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 @import "./globals/resets.scss";
-@import "./utilities/medias.scss";
+@import "./utilities/_variables.scss";
 @import "./views/home.scss";
-@import "./views/calendario.scss";
-@import "./views/canciones.scss";
-@import "./views/contacto.scss";
 @import "./views/historia.scss";
+@import "./views/canciones.scss";
 @import "./views/media.scss";
-@import "./views/home.scss";
+@import "./views/calendario.scss";
+@import "./views/contacto.scss";
+
+@import "./utilities/medias.scss";
 

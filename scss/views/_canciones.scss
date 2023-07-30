@@ -1,3 +1,16 @@
+.canciones {
+    background-color: $color-fondo_bodyhome;
+    min-width: 468px;
+}
+.normal_can {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+}
+
 .container_canciones .row {
     display: flex;
     justify-content: center;

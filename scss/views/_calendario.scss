@@ -1,10 +1,20 @@
-.fecha_calendario {
+  .fecha_calendario {
     display: flex;
     background-color: black;
     color: white;
     padding: 5px;
     border-bottom: 1px solid white;
   }
+  
+  .titulo_calendario {
+    background-color: white;
+    font-family: $font-titulo;
+    font-size: larger;
+    border-top: 1px solid black;
+    padding: 4px;
+
+  }
+
   .fecha_calendario .fc1{
     font-size: 40px;
   }
@@ -27,3 +37,29 @@
     margin-left: 50px;
     margin-top: 22px;
   }
+
+  @media (max-width: 546px) {
+    .fecha_calendario .fc1{
+      font-size: 20px;
+    }
+    .fecha_calendario .fc2{
+      font-size: 10px;
+      margin: 21px;
+    }
+    .fecha_calendario .fc3{
+      font-size: 20px;
+      margin-left: 3px;
+    }
+    .fecha_calendario .fc4{
+      font-size: 10px;
+      margin-left: 50px;
+      margin-top: 22px;
+      font-weight: bold;
+    }
+    .fecha_calendario .fc5{
+      font-size: 10px;
+      margin-left: 50px;
+      margin-top: 22px;
+    }
+        
+}

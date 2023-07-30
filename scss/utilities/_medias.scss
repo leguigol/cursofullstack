@@ -1,8 +1,9 @@
 @media (min-width: 546px) {
     .fecha_calendario {
-      font-size: 16px; /* Tamaño normal del texto para pantallas medianas y grandes */
+      font-size: 12px; /* Tamaño normal del texto para pantallas medianas y grandes */
     }
     .fecha_calendario p {
+      font-size: 10px;  
       margin: 5px; /* Margen ligeramente mayor para pantallas medianas y grandes */
     }
 }
