@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,20 +24,22 @@
 <body class="body_ppal">
 
         <header>
-            <!-- <div class="row">
-                <div id="contenedor_img_portada">
-                    <img class="img-fluid" id="img_portada" src="./assets/images/header.jpg" alt="Luz difusa en Concierto" />
+            <div class="row">
+                <div id="contenedor_img_portada container-fluid">
+                    <div class="col-12">
+                        <img class="img-fluid" id="img_portada" src="./assets/images/header.jpg" alt="Luz difusa en Concierto" />
+                    </div>
                 </div>    
-            </div> -->
+            </div>
             <div class="container_titulo">
                 <div class="row">
-                    <!-- <div class="col-12 col-md-2"></div> -->
-                    <div class="col-sm-12">
+                    <div class="col-12 col-md-2"></div>
+                    <div class="col-md-6">
                         <div class="titulo">
                             <h2>LUZ DIFUSA</h2>
                         </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-md-4">
                         <div class="redes_sociales">
                             <img alt="Spotify" src="https://static.wixstatic.com/media/e18eec328e7446079b7c7cef09488b18.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e18eec328e7446079b7c7cef09488b18.png" style="width: 30px; height: 30px; object-fit: cover;">
                             <img alt="Apple Music" src="https://static.wixstatic.com/media/b2a4e7e9c56a45df9961c749501f1139.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b2a4e7e9c56a45df9961c749501f1139.png" style="width: 30px; height: 30px; object-fit: cover;">
@@ -50,14 +52,13 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="rectangulo" id="logo_rectangulo"></div> -->
+            <div class="rectangulo" id="logo_rectangulo"></div>
         </header>
         <nav>
             <div class="container-fluid">
                 <div class="row justify-content-md-center">
-                  <div class="col-sm-2 col-md-1"></div>  
-                  <div class="col-12 col-md-10 d-flex justify-content-md-center">
-                    <ul class="nav justify-content-md-center">
+                  <div class="col-12 d-flex justify-content-lg-center">
+                    <ul class="nav">
                       <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
                       <li class="nav-item"><a class="nav-link" href="./pages/historia.html">HISTORIA</a></li>
                       <li class="nav-item"><a class="nav-link" href="./pages/canciones.html">CANCIONES</a></li>
@@ -66,7 +67,6 @@
                       <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
                     </ul>
                   </div>
-                  <div class="col-md-1"></div>  
                 </div>
             </div>
         </nav>
@@ -100,7 +100,7 @@
                             <article class="music">
                                 <div class="titulo_article">MUSICA</div>
                                 <div class="iframe-container">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TxzUbxFLJjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    
+                                    <iframe src="https://www.youtube.com/embed/TxzUbxFLJjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    
                                 </div>    
                             </article>
                     </div>    
