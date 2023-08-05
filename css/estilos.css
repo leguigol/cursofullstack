@@ -265,7 +265,7 @@ article .firma_article {
   background-color: black;
   margin-right: 20px;
   margin-left: 20px;
-  height: 33rem;
+  height: 31.2rem;
   color: white;
   padding: 10px;
   text-align: center;
@@ -329,7 +329,6 @@ aside {
 
 .body_historia {
   background-color: #eaeaea;
-  min-width: 468px;
 }
 
 .cuerpo_historia {
@@ -337,9 +336,31 @@ aside {
   text-align: center;
 }
 
+#logo_rectangulo2 {
+  width: 159px;
+  height: 161px;
+  background-image: url("../assets/images/logoluzblack.jpg");
+  background-size: cover;
+  position: absolute;
+  margin-top: -75px;
+  margin-left: 200px;
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: caida 1s ease;
+}
+@media (max-width: 1400px) {
+  #logo_rectangulo2 {
+    width: 79px;
+    height: 81px;
+    margin-top: -100px;
+    margin-left: 20px;
+  }
+}
+
 .canciones {
   background-color: #eaeaea;
-  min-width: 468px;
 }
 
 .normal_can {
@@ -349,6 +370,11 @@ aside {
   padding: 20px;
   margin: 20px;
   height: 400px;
+}
+@media (max-width: 416px) {
+  .normal_can {
+    height: 450px;
+  }
 }
 
 .container_canciones .row {
@@ -378,8 +404,32 @@ article .cuerpo_article_can {
   margin-bottom: 5px;
 }
 
-.body_media {
-  min-width: 585px;
+.titulo_aside2_can {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 6rem;
+  background-color: white;
+  font-size: x-large;
+  text-align: center;
+}
+
+.cuerpo_aside2_can {
+  background-color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 19rem;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+}
+@media (max-width: 416px) {
+  .cuerpo_aside2_can {
+    height: 13rem;
+  }
 }
 
 .fecha_calendario {
